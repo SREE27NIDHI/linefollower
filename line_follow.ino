@@ -86,8 +86,8 @@ void analogreadings()
 
 void linefollow(){
 
-       if(s1== 0 && s2 == 0 && s3 == 0){
-           movefwd();
+  if(s1== 0 && s2 == 0 && s3 == 0){
+      movefwd();
          }
   else if(s1== 0 && s2 == 0 && s3 == 1){
      turnright();
@@ -163,8 +163,10 @@ void movestop(){
   }
 
 void dispara(){
-  Serial.prinln ("Sensor 1 value"+);
-  Serial.prinln ("Sensor 1 value"+);
-  Serial.prinln ("Sensor 1 value"+);
+  Serial.prinln ("Sensor 1 value"+YOUR_SENSOR_PIN);
+  Serial.prinln ("Sensor 1 value"+YOUR_SENSOR_PIN);
+  Serial.prinln ("Sensor 1 value"+YOUR_SENSOR_PIN);
   
   }
+
+
